@@ -1,4 +1,3 @@
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # FLORAL: Fit LOg-RAtio Lasso regression for compositional covariates <img src="man/figures/logo.png" align="right" height="139" />
@@ -19,12 +18,12 @@ proposed method adapts the augmented Lagrangian algorithm for a zero-sum
 constraint optimization problem while enabling a two-stage screening
 process for extended false-positive control.
 
-The associated preprint for `FLORAL` is available on
-[bioRxiv](https://www.biorxiv.org/content/10.1101/2023.05.02.538599).
+The associated article for `FLORAL` is available on
+[Cell Reports Methods](https://doi.org/10.1016/j.crmeth.2024.100899).
 
 ## System requirements and installation
 
-The current version of `FLORAL` (0.3.0) was built in R version 4.3.3. R
+The current version of `FLORAL` (0.4.0) was built in R version 4.4.2. R
 package dependencies can be found in the `DESCRIPTION` file.
 
 You can install `FLORAL` with the following code. The installation is
@@ -168,7 +167,7 @@ repository](https://github.com/vdblab/FLORAL-analysis).
 
 The `FLORAL` package is jointly managed by [MSKCC Biostatistics
 service](https://www.mskcc.org/departments/epidemiology-biostatistics/biostatistics)
-and [the Marcel van den Brink Lab](https://vandenbrinklab.org/). Please
+and the Marcel van den Brink Lab. Please
 note that the `FLORAL` project is released with a [Contributor Code of
 Conduct](https://github.com/vdblab/FLORAL/blob/master/.github/CODE_OF_CONDUCT.md).
 By contributing to this project, you agree to abide by its terms. Thank
@@ -178,6 +177,5 @@ you to all contributors!
 
 Fei T, Funnell T, Waters NR, Raj SS, Sadeghi K, Dai A, Miltiadous O,
 Shouval R, Lv M, Peled JU, Ponce DM, Perales M-A, Gönen M, van den Brink
-MRM, Enhanced Feature Selection for Microbiome Data using FLORAL:
-Scalable Log-ratio Lasso Regression, bioRxiv 2023.05.02.538599; doi:
-<https://doi.org/10.1101/2023.05.02.538599>.
+MRM, Scalable log-ratio lasso regression for enhanced microbial feature selection with FLORAL, Cell Reports Methods (2024), 100899; doi:
+<https://doi.org/10.1016/j.crmeth.2024.100899>.
