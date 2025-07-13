@@ -4,14 +4,9 @@ library(tidyverse)
 library(phyloseq)
 
 ## -----------------------------------------------------------------------------
-#this file has duplicate rows, and has multiple rows per pool
-samples <- read.csv("https://figshare.com/ndownloader/files/33076496") %>% distinct() %>% 
-  select(-Pool, -Run, -ShotgunBatchID) %>% distinct()
-samples <- samples[1:100,] # Using the first 100 samples only.
-counts <- read.csv("https://figshare.com/ndownloader/files/26393788") 
-counts <- counts %>%
-  filter(SampleID %in% samples$SampleID)
-taxonomy <- read.csv("https://figshare.com/ndownloader/files/26770997")
+samples <- get0("samples", envir = asNamespace("FLORAL"))
+counts <- get0("counts", envir = asNamespace("FLORAL"))
+taxonomy <- get0("taxonomy", envir = asNamespace("FLORAL"))
 
 phy <- phyloseq(
   sample_data(samples %>% column_to_rownames("SampleID")),

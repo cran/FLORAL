@@ -1,8 +1,8 @@
 Package: FLORAL
 Type: Package
 Title: Fit Log-Ratio Lasso Regression for Compositional Data
-Version: 0.4.0
-Date: 2025-02-16
+Version: 0.5.0
+Date: 2025-07-13
 Authors@R: c(
     person("Teng", "Fei", , "feit1@mskcc.org", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0001-7888-1715")),
@@ -32,11 +32,12 @@ Language: en-US
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2025-02-17 04:18:28 UTC; feit1
-Author: Teng Fei [aut, cre, cph] (<https://orcid.org/0000-0001-7888-1715>),
-  Tyler Funnell [aut] (<https://orcid.org/0000-0003-1612-5644>),
-  Nicholas Waters [aut] (<https://orcid.org/0000-0002-9035-2143>),
-  Sandeep Raj [aut] (<https://orcid.org/0000-0003-4629-0528>)
+Packaged: 2025-07-13 13:56:32 UTC; feit1
+Author: Teng Fei [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0001-7888-1715>),
+  Tyler Funnell [aut] (ORCID: <https://orcid.org/0000-0003-1612-5644>),
+  Nicholas Waters [aut] (ORCID: <https://orcid.org/0000-0002-9035-2143>),
+  Sandeep Raj [aut] (ORCID: <https://orcid.org/0000-0003-4629-0528>)
 Maintainer: Teng Fei <feit1@mskcc.org>
 Repository: CRAN
-Date/Publication: 2025-02-17 07:20:02 UTC
+Date/Publication: 2025-07-13 14:20:01 UTC
