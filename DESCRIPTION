@@ -1,8 +1,8 @@
 Package: FLORAL
 Type: Package
 Title: Fit Log-Ratio Lasso Regression for Compositional Data
-Version: 0.5.0
-Date: 2025-07-13
+Version: 0.6.0
+Date: 2025-11-21
 Authors@R: c(
     person("Teng", "Fei", , "feit1@mskcc.org", role = c("aut", "cre", "cph"),
            comment = c(ORCID = "0000-0001-7888-1715")),
@@ -23,7 +23,7 @@ biocViews:
 Imports: Rcpp (>= 1.0.9), stats, survival, ggplot2, survcomp, reshape,
         dplyr, glmnet, caret, grDevices, utils, mvtnorm, doParallel,
         doRNG, foreach, msm, phyloseq
-LinkingTo: Rcpp, RcppArmadillo, RcppProgress, ast2ast
+LinkingTo: Rcpp, RcppArmadillo, RcppProgress
 RoxygenNote: 7.3.2
 Encoding: UTF-8
 Suggests: covr, knitr, rmarkdown, spelling, testthat (>= 3.0.0),
@@ -32,7 +32,7 @@ Language: en-US
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: yes
-Packaged: 2025-07-13 13:56:32 UTC; feit1
+Packaged: 2025-11-22 00:37:56 UTC; feit1
 Author: Teng Fei [aut, cre, cph] (ORCID:
     <https://orcid.org/0000-0001-7888-1715>),
   Tyler Funnell [aut] (ORCID: <https://orcid.org/0000-0003-1612-5644>),
@@ -40,4 +40,4 @@ Author: Teng Fei [aut, cre, cph] (ORCID:
   Sandeep Raj [aut] (ORCID: <https://orcid.org/0000-0003-4629-0528>)
 Maintainer: Teng Fei <feit1@mskcc.org>
 Repository: CRAN
-Date/Publication: 2025-07-13 14:20:01 UTC
+Date/Publication: 2025-11-22 01:10:02 UTC

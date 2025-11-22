@@ -1,6 +1,6 @@
-180df945eaed69ce7747b65de49f4661 *DESCRIPTION
+3e66b8c333af19685637f0eb4a48300a *DESCRIPTION
 355dc54831907627e3a2db9ee467a54a *NAMESPACE
-2fc5d4ce13be1a5bd054778bc3d6c890 *NEWS.md
+c9780d07aed9ba99057ce1296765147a *NEWS.md
 0a1aef0c38099d9ae5a2fbceee534041 *R/FLORAL.R
 5b8f51ee481cfc5dd114d0298954bbb0 *R/LogRatioCoxLasso.R
 55eef3401c3c0528c890fbc4702d60f8 *R/LogRatioFGLasso.R
@@ -18,7 +18,7 @@ ce22bd6afa094ae68a0d3f2f693c2d53 *build/vignette.rds
 fb655667853b562f0b9f6468b443839a *inst/WORDLIST
 b3c35bd20b36601d8f93595c93ea9475 *inst/doc/Using-FLORAL-for-Microbiome-Analysis.R
 5b70e04850a7b35ffbe0eec53b34fa37 *inst/doc/Using-FLORAL-for-Microbiome-Analysis.Rmd
-bc5cebb8df3a96bc41f57c99e882e1b5 *inst/doc/Using-FLORAL-for-Microbiome-Analysis.html
+172a9dafcf26d2c5218165260e9ddcd2 *inst/doc/Using-FLORAL-for-Microbiome-Analysis.html
 14298c3d6f292d48e22591f22cf81e45 *inst/doc/Using-FLORAL-for-survival-models-with-longitudinal-microbiome-data.R
 fa74405b6c02796a290505b1fdc0b6d0 *inst/doc/Using-FLORAL-for-survival-models-with-longitudinal-microbiome-data.Rmd
 00b61489b1228bdba8a912040f82bcd3 *inst/doc/Using-FLORAL-for-survival-models-with-longitudinal-microbiome-data.html
@@ -40,7 +40,7 @@ df26e788da90056f2cf994570755b275 *src/Makevars.win
 c05644c70f5d094fa07ee7d24075f2c9 *src/RcppExports.cpp
 fe4bf557779d7f6b6b2554f6152d9c5e *src/enet.cpp
 2eca0c46a3f6fb085a44fd1f68ad29c8 *src/linear_lasso.cpp
-53a993223519cc52b0ebae87ebeb316d *src/pgee.cpp
+6e6b0d9ca824099e89651e1b78059721 *src/pgee.cpp
 0622a97a2aaa3c342f09636052c2d7f5 *tests/spelling.R
 06be4c6c5431b148ba26b2c42700c306 *tests/testthat.R
 8708a857647c5a0c0637f1221446e067 *tests/testthat/test-FLORAL.R
